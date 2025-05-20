@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>es1</title>
+</head>
+<body>
+    <!-- ESERCIZIO 1: Titoli e paragrafi
+
+ Crea una pagina HTML con:
+Un titolo principale (h1) con il tuo nome.
+
+
+Un sottotitolo (h2) con “Il mio primo sito”.
+
+
+Un paragrafo (p) dove descrivi in una riga chi sei o cosa ti piace fare. -->
+
+
+<h1>Nome: Francesco</h1>
+<h1>Cognome:Maceri</h1>
+<h2>il mio primo sito</h2>
+<p>
+sono uno sviluppatore full stack a cui piace girare e fare video con il drone
+</p>
+
+
+    <!-- ESERCIZIO 2: Link e immagini
+
+    Inserisci un link che porta a www.wikipedia.org.
+    
+    
+    Fai in modo che il link si apra in una nuova scheda.
+    
+    
+    Inserisci un’immagine a tua scelta (puoi usare una qualsiasi immagine online) con una larghezza di 300px e un testo alternativo.
+     -->
+
+     <a href="https://it.wikipedia.org/" target="_blank">Qui vai su wikipedia</a> <br>
+
+     <img src="gatto.jpg" alt="questo è un gatto" height="300px">
+ 
+
+        <!-- ESERCIZIO 3: Liste ordinate e non ordinate
+
+Crea una lista non ordinata dei tuoi hobby.
+
+
+Crea una lista ordinata delle cose che fai ogni mattina (es. 1. Sveglia, 2. Colazione, …). -->
+
+
+<ul>
+    <li>registrare video con il drone</li>
+    <li>prendermi cura del mio gatto</li>
+    <li>fare lunghe passeggiate</li>
+    <li>andare in palestra</li>
+</ul>
+<br>
+<ol>
+    <li>mi alzo alle 8</li>
+    <li>faccio colazione</li>
+    <li style="color: yellow; background-color: brown;">seguo le lezioni del corso di python</li>
+    <li>alle 13 pranzo</li>
+    <li style="color: green;">alle 18 esco a fare la spesa</li>
+    <li>poi ceno e vado a dormire</li>
+
+</ol>
+
+<!-- ESERCIZIO 4: Formattazione del testo
+
+ Scrivi un paragrafo dove usi:
+b per grassetto semplice,
+
+
+strong per indicare un concetto importante,
+
+
+i e em per testo in corsivo,
+
+
+mark per evidenziare qualcosa,
+
+
+del per mostrare un testo cancellato,
+
+
+ins per indicare un testo aggiunto di recente. -->
+
+
+
+    <p> testo in grassetto semplice <b>questo qui</b></p>
+    <br>
+    <p>mentre questo è uno strong <strong>questo è uno strong</strong></p>
+    <br>
+    <p>questo lo evidenzio in corsivo <i>corsivo</i> ed efasi <em>enfasi</em></p>
+    <p>quindi evidenzio questo <mark>testo evidenziato</mark></p>
+
+    <p>e questo ho deciso di cancellarlo <del>testo che non mi piace</del></p>
+
+    <p>mentre ora inserisco qualcos'altro <ins>testo nuovo</ins></p>
+
+
+    <!-- ESERCIZIO 5: Citazioni e abbreviazioni
+
+Inserisci una citazione lunga con blockquote da un libro o da una canzone.
+
+
+Usa q per una citazione breve.
+
+
+Usa  cite per indicare il titolo del libro da cui hai preso la citazione.
+
+
+Usa abbr per abbreviare una parola (es. HTML, CSS, S.P.A) con tooltip.
+ -->
+
+
+
+<h3>questa è una citazione di un libro</h3>
+
+<blockquote>Un Anello per domarli, un Anello per trovarli, un Anello per ghermirli e nel buio incatenarli</blockquote>
+<br>
+
+<p>citazione breve</p>
+<q>chi la fa l'aspetti</q>
+<br>
+
+<cite>
+    il signore degli anelli - la compagnia dell'anello
+</cite>
+
+<p style="background-color: yellowgreen;">adesso inserirò l'abbreviazione del  <abbr title="Dottore">Dr.</abbr> Patrizi</p>
+
+
+<!-- ESERCIZIO 6: Div e Span
+
+Crea un div che contiene un h2 e un p.
+
+
+All’interno del paragrafo usa span per colorare una parola in rosso. -->
+
+<br>
+<div>
+    <h2>questo è un h2</h2>
+<p>questo è un paragrafo con <span style="color: blueviolet; border-radius: 10px;">questa è una parola in bluvioletto</span></p>
+</div>
+<!-- 
+ESERCIZIO 7: Pre-formattazione del testo
+
+ Scrivi un testo con più spazi e più righe, tipo una poesia o un elenco tabulato, dentro un tag pre. -->
+
+<br>
+<h3>questo invece contiene un pre</h3>
+<pre>
+            il testo sarà con una tabulazione
+                                    manuale 
+</pre>
+
+</body>
+</html>
